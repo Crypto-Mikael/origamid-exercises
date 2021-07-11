@@ -42,5 +42,5 @@ const carregouTudo = Promise.all([login, dados]);
 
 
 carregouTudo.then((resolution) => {
-  console.log(resolution)
+  console.log(resolution);
 })
